@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: hamritha817/github-action-maven-tutorial:d22f0eb9bca85055db1d1684eb50cdbbdcd0eda6
+          image: hamritha817/github-action-maven-tutorial:832319d09bb624416ca3cf72c057097404385f3d
           ports:
             - containerPort: 80  # Adjust the container port as needed
