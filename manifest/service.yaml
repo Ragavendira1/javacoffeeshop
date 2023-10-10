@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-service
+  name: coffeshop-service
 spec:
   selector:
-    app: app
+    app: coffeeshop
   ports:
   - name: name-of-service-port
     protocol: TCP
-    port: 80
+    port: 8083
     targetPort: http-web-svc
