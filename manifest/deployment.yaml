@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: coffeeshop
-          image: xplatformexpleo/devsecops:18
+          image: xplatformexpleo/devsecops:19
           ports:
             - containerPort: 8083
